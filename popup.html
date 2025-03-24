@@ -1,0 +1,41 @@
+<html>
+<head>
+  <div>
+  <title>Data Fusion Labs</title>
+  </div>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <form class="form">
+      <div class="flex-column">
+      <div class="flex-row header-container">
+        <label class="header-label">Data Fusion Labs</label>
+        <div class="tabs">
+          <input type="radio" id="radio-labs" name="tabs" checked>
+          <label class="tab" for="radio-labs">Labs</label>
+          <input type="radio" id="radio-prod" name="tabs">
+          <label class="tab" for="radio-prod">Prod</label>
+          <span class="glider"></span>
+        </div>
+      </div>
+        <div class="inputForm">
+          <img src="res/icons/input.png" alt="Type lab number" width="20" height="20">
+          <input id = "codeInput" placeholder="Enter lab number" class="input" type="text">
+        </div>
+
+      <div class="flex-row">
+        <button id="btn-open-lab" class="btn lab">
+            <img src="res/icons/lab.png" alt="Open lab" width="20" height="20">
+          Open lab
+        </button>
+        <button id="btn-open-logs" class="btn logs">
+          <img src="res/icons/log.png" alt="Open logs" width="20" height="20">
+          Open logs
+        </button>
+      </div>
+  </form>
+  <script src="popup.js"></script>
+</body>
+</html>
+
+
